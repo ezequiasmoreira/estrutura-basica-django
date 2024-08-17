@@ -5,20 +5,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Rio de Janeiro</title>
+    <title>Galeria de Fotos - Rio de Janeiro</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body>
     <header>
-        <h1>Explore Rio de Janeiro</h1>
+        <h1>Galeria de Fotos</h1>
         <nav><a href="{% url 'home' %}">Home</a><a href="{% url 'attractions' %}">Atrações</a><a
                 href="{% url 'history' %}">História</a><a href="{% url 'gallery' %}">Galeria</a></nav>
     </header>
     <section>
-        <h2>Descubra as Maravilhas do Rio de Janeiro</h2>
-        <p>Bem-vindo ao Rio de Janeiro, uma das cidades mais vibrantes e icônicas do mundo. Explore nossas páginas para
-            conhecer mais sobre as atrações, história, cultura e belezas naturais desta cidade incrível.</p>
+        <h2>Imagens do Rio de Janeiro</h2>
+        <div class="gallery"><img src="{% static 'images/pao_de_acucar.jpg' %}" alt="Pão de Açúcar"><img
+                src="{% static 'images/cristo_redentor.jpg' %}" alt="Cristo Redentor"><img
+                src="{% static 'images/copacabana.jpg' %}" alt="Praia de Copacabana"></div>
     </section>
 </body>
 

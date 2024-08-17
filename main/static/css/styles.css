@@ -1,33 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+header {
     background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-nav {
-    margin: 10px;
+    color: #fff;
+    padding: 10px0;
     text-align: center;
 }
 
 nava {
+    color: #fff;
     margin: 015px;
     text-decoration: none;
+}
+
+h1, h2 {
     color: #333;
 }
 
-nava:hover {
-    color: #007BFF;
+section {
+    padding: 20px;
 }
 
-p {
-    padding: 10px;
-    text-align: center;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryimg {
+    margin: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+img {
+    margin-left: 20%;
+    margin-top: 20px;;
+    width: 60%;
 }
