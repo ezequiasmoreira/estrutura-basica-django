@@ -7,18 +7,26 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px0;
+    padding: 10px;
     text-align: center;
 }
 
-nava {
+nav a {
     color: #fff;
-    margin: 015px;
+    margin: 15px;
     text-decoration: none;
 }
 
+nav a:visited {
+    color: #ccc; 
+}
+
+nav a:hover {
+    color: #ddd; 
+}
+
 h1, h2 {
-    color: #333;
+    color: #9f72f3;
 }
 
 section {
@@ -44,4 +52,8 @@ img {
     margin-left: 20%;
     margin-top: 20px;;
     width: 60%;
+}
+
+p {
+    text-align: center;
 }

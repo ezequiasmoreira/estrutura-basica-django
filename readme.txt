@@ -61,7 +61,7 @@ mysite/
 │   │   └── css/
 │   │       └── styles.css
 │   ├── templates/
-│   │   ├── home.html
+│   │   ├── index.html
 │   │   ├── about.html
 │   │   └── contact.html
 │   ├── __init__.py
@@ -116,7 +116,7 @@ No arquivo views.py dentro de main, crie as funções de visualização para as 
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 def about(request):
     return render(request, 'about.html')
@@ -129,7 +129,7 @@ def contact(request):
 6. Criação dos Templates
 Na pasta main/templates/, crie os arquivos HTML:
 
-home.html
+index.html
 
 {% load static %}
 <!DOCTYPE html>

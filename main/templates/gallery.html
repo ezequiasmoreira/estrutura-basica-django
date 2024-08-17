@@ -12,14 +12,20 @@
 <body>
     <header>
         <h1>Galeria de Fotos</h1>
-        <nav><a href="{% url 'home' %}">Home</a><a href="{% url 'attractions' %}">Atrações</a><a
-                href="{% url 'history' %}">História</a><a href="{% url 'gallery' %}">Galeria</a></nav>
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'attractions' %}">Atrações</a>
+            <a  href="{% url 'history' %}">História</a>
+            <a href="{% url 'gallery' %}">Galeria</a>
+        </nav>
     </header>
     <section>
         <h2>Imagens do Rio de Janeiro</h2>
-        <div class="gallery"><img src="{% static 'images/pao_de_acucar.jpg' %}" alt="Pão de Açúcar"><img
-                src="{% static 'images/cristo_redentor.jpg' %}" alt="Cristo Redentor"><img
-                src="{% static 'images/copacabana.jpg' %}" alt="Praia de Copacabana"></div>
+        <div class="gallery">
+            <img src="{% static 'images/pao_de_acucar.jpg' %}" alt="Pão de Açúcar">
+            <img src="{% static 'images/cristo_redentor.jpg' %}" alt="Cristo Redentor">
+            <img src="{% static 'images/copacabana.jpg' %}" alt="Praia de Copacabana">
+        </div>
     </section>
 </body>
 
