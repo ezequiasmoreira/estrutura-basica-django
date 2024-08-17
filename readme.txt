@@ -204,8 +204,6 @@ contact.html
 7. Adicionando Estilos CSS
 Na pasta main/static/css/, crie o arquivo styles.css:
 
-css
-Copiar código
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
